@@ -26,3 +26,7 @@ To study purchasing behavior, we used the ROW_NUMBER() window function to assign
 
 🔹 4. Ranking Products by Demand Using CTE + DENSE_RANK()
 A separate analysis ranked products by their total quantity ordered. Again, a CTE was used to summarize the total quantity per product. Then, the DENSE_RANK() window function was used to assign a ranking based on demand. This helped identify which products are the most popular or frequently ordered. According to the result, the “Phone” product ranked highest in demand, while other products had lower but equal demand. Such insights are valuable for inventory management, marketing focus, or product prioritization
+
+OUTPUT:
+
+<img width="431" height="793" alt="Image" src="https://github.com/user-attachments/assets/61397fcf-64be-408b-a7d4-d9deaf53e86e" />
